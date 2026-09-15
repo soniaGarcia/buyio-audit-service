@@ -18,7 +18,7 @@ RUN ./mvnw clean package -DskipTests
 # ==============================================================================
 # Etapa 2: Runtime seguro y ligero para Producción
 # ==============================================================================
-FROM eclipse-temurin:21-jre-alpine AS runner
+FROM eclipse-temurin:17-jre-alpine AS runner
 WORKDIR /app
 
 # 4. Seguridad (DevSecOps): Crear un usuario sin privilegios para no correr como root
