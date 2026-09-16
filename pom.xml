@@ -8,7 +8,7 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.exam</groupId>
+	<groupId>com.buyio</groupId>
 	<artifactId>buyio-audit-service</artifactId>
     <version>1.0.0</version>
     <name>buyio-audit-service</name>
