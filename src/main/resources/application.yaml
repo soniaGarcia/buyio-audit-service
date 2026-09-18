@@ -25,4 +25,5 @@ spring:
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
 jwt:
-  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  secret: c3VwZXItc2VjcmV0LWtleS1mb3ItYnV5aW8tcGxhdGZvcm0tYXV0aGVudGljYXRpb24tc2VydmljZS0yMDI2
+  expiration-ms: 86400000 # 24 horas
